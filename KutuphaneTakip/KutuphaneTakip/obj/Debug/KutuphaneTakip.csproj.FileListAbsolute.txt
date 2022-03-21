@@ -1,0 +1,10 @@
+c:\users\lab\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\bin\Debug\KutuphaneTakip.exe.config
+C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\obj\Debug\KutuphaneTakip.csprojResolveAssemblyReference.cache
+C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\obj\Debug\KutuphaneTakip.AnaForm.resources
+C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\obj\Debug\KutuphaneTakip.Properties.Resources.resources
+C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\obj\Debug\KutuphaneTakip.UyeEkleme.resources
+C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\obj\Debug\KutuphaneTakip.csproj.GenerateResource.Cache
+C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\bin\Debug\KutuphaneTakip.exe
+C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\bin\Debug\KutuphaneTakip.pdb
+C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\obj\Debug\KutuphaneTakip.exe
+C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\obj\Debug\KutuphaneTakip.pdb
