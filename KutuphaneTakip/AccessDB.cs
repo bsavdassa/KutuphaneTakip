@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using System.Data.OleDb;
 namespace KutuphaneTakip
 {
-    partial class AccessDB
+    public partial class AccessDB 
     {
-        Dictionary<string, string> tables = new Dictionary<string, string>()
+        public Dictionary<string, string> tables = new Dictionary<string, string>()
         {
-            { "user", "Kullanici" },
+            { "users", "Kullanici" },
             { "books", "Kitaplar" }
         };
         OleDbConnection connection = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=db.accdb");
@@ -20,7 +20,32 @@ namespace KutuphaneTakip
             tables[key] = table;
         }
 
+        public string SubString(string text, int start, int end)
+        {
+            string last = "";
+            for (int i = start; i < end; i++)
+            {
+                last += text[i];
+            }
+            return last;
+        }
 
-
+        public string CreateInsertIntoQueryString(string tableKey, Dictionary<string, string> data)
+        {
+            string table = tables[tableKey];
+            string sqlString = "INSERT INTO " + table + " (";
+            foreach (var item in data)
+            {
+                sqlString += item.Key + ", ";
+            }
+            sqlString = SubString(sqlString, 0, sqlString.Length - 2) + ") VALUES (";
+            foreach (var item in data)
+            {
+                sqlString += "'" + item.Value + "', ";
+            }
+            sqlString = SubString(sqlString, 0, sqlString.Length-2) + ")";
+            sqlString.Substring(0, sqlString.Length - 2);
+            return sqlString;
+        }
     }
 }

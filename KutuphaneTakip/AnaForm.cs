@@ -12,9 +12,20 @@ namespace KutuphaneTakip
 {
     public partial class AnaForm : Form
     {
-        public AnaForm()
+        AccessDB accdb;
+        public AnaForm(AccessDB accdb)
         {
             InitializeComponent();
+            this.accdb = accdb;
+        }
+
+        private void btnSiralama_Click(object sender, EventArgs e)
+        {
+
+            string x = accdb.CreateInsertIntoQueryString("users", new Dictionary<string, string>() { 
+                {"tc", ""}
+            });
+            MessageBox.Show(x);
         }
     }
 }
