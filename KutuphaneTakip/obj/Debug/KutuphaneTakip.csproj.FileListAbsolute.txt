@@ -8,3 +8,4 @@ C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip
 C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\bin\Debug\KutuphaneTakip.pdb
 C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\obj\Debug\KutuphaneTakip.exe
 C:\Users\LAB\documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\obj\Debug\KutuphaneTakip.pdb
+C:\Users\LAB\Documents\visual studio 2013\Projects\KutuphaneTakip\KutuphaneTakip\obj\Debug\KutuphaneTakip.UyeListele.resources

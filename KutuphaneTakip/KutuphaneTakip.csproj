@@ -59,6 +59,12 @@
     <Compile Include="UyeEkleme.Designer.cs">
       <DependentUpon>UyeEkleme.cs</DependentUpon>
     </Compile>
+    <Compile Include="UyeListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeListele.Designer.cs">
+      <DependentUpon>UyeListele.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AnaForm.resx">
       <DependentUpon>AnaForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -73,6 +79,9 @@
     </Compile>
     <EmbeddedResource Include="UyeEkleme.resx">
       <DependentUpon>UyeEkleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UyeListele.resx">
+      <DependentUpon>UyeListele.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

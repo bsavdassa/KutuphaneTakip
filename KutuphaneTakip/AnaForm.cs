@@ -22,10 +22,16 @@ namespace KutuphaneTakip
         private void btnSiralama_Click(object sender, EventArgs e)
         {
 
-            string x = accdb.CreateInsertIntoQueryString("users", new Dictionary<string, string>() { 
-                {"tc", ""}
-            });
-            MessageBox.Show(x);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new UyeEkleme(accdb).ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new UyeListele(accdb).ShowDialog();
         }
     }
 }
